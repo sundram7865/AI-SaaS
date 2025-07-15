@@ -2,8 +2,9 @@
   "name": "server",
   "version": "1.0.0",
   "main": "server.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon server.js",
     "start": "node server.js"
   },
   "keywords": [],
@@ -11,7 +12,7 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "@clerk/express": "^1.7.5",
+    "@clerk/express": "^1.7.6",
     "@neondatabase/serverless": "^1.0.1",
     "axios": "^1.10.0",
     "cloudinary": "^2.7.0",
